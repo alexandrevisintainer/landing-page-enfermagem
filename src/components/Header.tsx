@@ -1,10 +1,5 @@
 import Image from "next/image"
 import Logo from '@/assets/logo.svg'
-import { ItemMenu } from "./ItemMenu"
-import { Search } from "./Search"
-import IconUser from "@/assets/icon-user.svg"
-import Arrow from '@/assets/arrow-down.svg'
-import Whatsapp from "@/assets/whatsapp.png"
 import WhatsappGreen from "@/assets/whatsappGreen.png"
 import WhatsappWhite from "@/assets/whatsappWhite.png"
 

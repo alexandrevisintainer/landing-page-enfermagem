@@ -1,9 +1,6 @@
 import Image from "next/image";
-import Logo from "@/assets/logo.svg"
-import WhatsappWhite from "@/assets/whatsappWhite.png"
 import Telefone from "@/assets/telefone.png"
 import Email from "@/assets/e-mail.png"
-import Instagram from "@/assets/instagram.png"
 import LogoLight from "@/assets/logolight.png"
 
 export function Footer() {
