@@ -1,6 +1,5 @@
 import IconSearch from '@/assets/icon-search.svg'
 import Image from 'next/image'
-import { Input } from 'postcss'
 
 export function Search() {
     return(

@@ -17,7 +17,7 @@ export function SectionAbout() {
                 </div>
 
                 {/* Conteúdo - Centralizado quando a imagem está oculta */}
-                <Container className="flex flex-col items-center lg:items-start text-center lg:text-left">
+                <Container>
                     <div className="max-w-[550px] pt-12 lg:pt-24">
                         <span className="block text-primary-gray text-sm font-bold uppercase mb-6">Sobre Nós</span>
                         <h2 className="text-primary-blue text-[32px] lg:text-[40px] font-bold leading-tight mb-6">
