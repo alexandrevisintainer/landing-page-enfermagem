@@ -4,12 +4,12 @@ import ServicesImg from "@/assets/ServicesImg.png"
 import Homecare from "@/assets/homecare.png"
 import Curativo from "@/assets/curativo.png"
 import Idosos from "@/assets/Idosos.png"
-import Terapia from "@/assets/terapia.png"
+import Gravida from "@/assets/gravida.png"
 
 
 export function SectionServices() {
     return (
-        <section className="relative w-full lg:h-[900px] flex flex-col lg:flex-row" id="Servicos">
+        <section className="relative w-full h-full flex flex-col lg:flex-row" id="Servicos">
             <Container>
                 <div className="flex-1 max-w-full lg:max-w-[594px] pt-12 px-4 lg:pt-24 lg:pr-8">
                     <span className="block text-primary-gray text-sm font-bold uppercase mb-4 lg:mb-6">Serviços exclusivos</span>
@@ -44,7 +44,7 @@ export function SectionServices() {
                         </li>
                         <li className="flex items-center gap-6 lg:gap-9 pb-4 lg:pb-6 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Idosos} alt="Phone Icon" />
+                                <Image src={Idosos} alt="Idosos" />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Assistência para Idosos</h3>
@@ -53,14 +53,14 @@ export function SectionServices() {
                                 </p>
                             </div>
                         </li>
-                        <li className="flex items-center gap-6 lg:gap-9 border-opacity-gray">
+                        <li className="flex items-center gap-6 lg:gap-9 pb-4 lg:pb-6 border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Terapia} alt="Phone Icon" />
+                                <Image src={Gravida} alt="Gravida" />
                             </div>
                             <div className="flex flex-col">
-                                <h3 className="text-base lg:text-lg font-semibold">Terapias em Casa</h3>
+                                <h3 className="text-base lg:text-lg font-semibold">Cuidador de gestantes</h3>
                                 <p className="text-txt-gray text-sm lg:text-base flex-1 pr-4">
-                                    Fisioterapia, terapia ocupacional e suporte para tratamentos crônicos, tudo no conforto do seu lar.
+                                Com preparo e dedicação, nossos cuidadores podem auxiliar na higiene, a alimentação, na rotina em casa, no acompanhamento das consultas e até em casos de internação.
                                 </p>
                             </div>
                         </li>
