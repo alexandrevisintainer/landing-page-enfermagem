@@ -2,8 +2,6 @@
 
 import Image from "next/image"
 import Logo from '@/assets/logo.svg'
-import WhatsappGreen from "@/assets/whatsappGreen.png"
-import WhatsappWhite from "@/assets/whatsappWhite.png"
 import { ButtonWhatsapp } from "./ButtonWhatsapp"
 import { useState } from "react";
 
