@@ -14,7 +14,7 @@ const config: Config = {
       colors: {
       'primary-blue' : '#33cdbb',
       'back-green' : '#DEF2FF',
-      'primary-orange' : '#EC7000',
+      'light-green' : '#ccfff9',
       'primary-gray' : '#33303E',
       'second-gray' : '#4E4B59',
       'gray-phone' :'#F4F4F4',

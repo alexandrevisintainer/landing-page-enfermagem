@@ -39,7 +39,7 @@ export function SectionAbout() {
                                 <Image src={WhatsappGreen} alt="WhatsappWhite" className="h-6 w-6 group-hover:opacity-0"/>
                                 <Image src={WhatsappWhite} alt="Whatsapp" className="h-6 w-6 opacity-0 group-hover:opacity-100 absolute"/>
                                 <span className="ml-2 font-bold">Faça um orçamento</span>
-                        </a>
+                            </a>
                         </div>
                         
 

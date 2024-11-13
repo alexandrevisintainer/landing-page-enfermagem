@@ -1,5 +1,7 @@
 import { Footer } from "@/components/Footer";
+import { SectionForm } from "@/components/Form";
 import { SectionAbout } from "@/components/SectionAbout";
+import { SectionAdvantages } from "@/components/SectionAdvantages";
 import { SectionCare } from "@/components/SectionCare";
 import { SectionContact } from "@/components/SectionContact";
 import { SectionHero } from "@/components/SectionHero";
@@ -10,9 +12,11 @@ export default function Home() {
     <>
       <SectionHero/>
       <SectionAbout />
-      <SectionServices/>  
+      <SectionAdvantages />
       <SectionCare />
-      <SectionContact />
+      <SectionServices/>  
+      
+      <SectionForm />
       <Footer/>
           
     </>

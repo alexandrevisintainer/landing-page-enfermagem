@@ -1,45 +1,72 @@
+"use client";
+
 import Image from "next/image"
 import Logo from '@/assets/logo.svg'
 import WhatsappGreen from "@/assets/whatsappGreen.png"
 import WhatsappWhite from "@/assets/whatsappWhite.png"
+import { ButtonWhatsapp } from "./ButtonWhatsapp"
+import { useState } from "react";
 
-export function Header(){
-    return(
-        <header className=" relative flex items-center w-full h-20 bg-white">
+
+export function Header() {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    return (
+        <header className="relative flex items-center w-full h-20 bg-[#ccfff9]">
             <div className="flex items-center justify-between w-full max-w-[1246px] px-[15px] mx-auto">
-                <div className="flex flex-1 items-center justify-between">
-                    <div className="flex items-center gap-14">
-                        <Image src={Logo} alt="Logo" className="h-14 w-32"/>
-                    </div>
-                    <ul className=" hidden lg:flex items-center gap-12 text-second-gray">
+                
+                {/* Logo */}
+                <div className="flex items-center gap-14 max-h-16 max-w-48">
+                    <Image src={Logo} alt="Logo" className="h-full w-full" />
+                </div>
+                
+                {/* Menu para telas grandes */}
+                <ul className="hidden lg:flex items-center gap-12 text-second-gray">
+                    <li>
+                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Servicos">Serviços</a>
+                    </li>
+                    <li>
+                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Footer">Contato</a>
+                    </li>
+                </ul>
+
+                {/* Botão de menu mobile */}
+                <div className="lg:hidden flex items-center">
+                    <button onClick={toggleMobileMenu} className="text-primary-blue">
+                        <span className="text-2xl">&#9776;</span> {/* Ícone de hambúrguer */}
+                    </button>
+                </div>
+
+                {/* Botão WhatsApp para todas as telas grandes */}
+                <div className="hidden lg:block">
+                    <ButtonWhatsapp />
+                </div>
+
+                {/* Menu Mobile */}
+                {isMobileMenuOpen && (
+                    <div className="absolute top-20 left-0 w-full bg-[#ccfff9] lg:hidden">
+                        <ul className="flex flex-col items-center gap-6 py-4">
                             <li>
-                             <a className="flex items-center gap-3" href="#Servicos">
-                                <span className="text-primary-gray font-bold hover:text-primary-blue">Serviços</span>
-                             </a>
+                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Servicos" onClick={toggleMobileMenu}>Serviços</a>
                             </li>
                             <li>
-                                <a className="flex items-center gap-3" href="#About">
-                                    <span className="text-primary-gray font-bold hover:text-primary-blue">Sobre nós</span>
-                                </a>
+                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About" onClick={toggleMobileMenu}>Sobre nós</a>
                             </li>
                             <li>
-                                <a className="flex items-center gap-3" href="#Footer">
-                                    <span className="text-primary-gray font-bold hover:text-primary-blue">Contato</span>
-                                </a>
+                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Footer" onClick={toggleMobileMenu}>Contato</a>
                             </li>
                         </ul>
-                            <a 
-                                href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="hidden sm:flex relative gap-2 px-4 py-2 border-2 border-primary-blue text-primary-blue rounded-lg hover:bg-primary-blue hover:text-white transition duration-200 items-center group"
-                            >
-                                <Image src={WhatsappGreen} alt="Whatsapp" className="h-6 w-6 group-hover:opacity-0"/>
-                                <Image src={WhatsappWhite} alt="WhatsappWhite" className="h-6 w-6 opacity-0 group-hover:opacity-100 absolute"/>
-                                <span className="font-bold ml-2">Envie uma Mensagem</span>
-                            </a>
-                </div>
+                    </div>
+                )}
             </div>
         </header>
-    )
+    );
 }
+
