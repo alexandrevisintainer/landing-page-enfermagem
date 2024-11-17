@@ -25,10 +25,16 @@ export function Header() {
                 {/* Menu para telas grandes */}
                 <ul className="hidden lg:flex items-center gap-12 text-second-gray">
                     <li>
-                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Servicos">Serviços</a>
+                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About">Sobre nós</a>
                     </li>
                     <li>
-                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About">Sobre nós</a>
+                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Advantages">Vantagens</a>
+                    </li>
+                    <li>
+                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Services">Serviços</a>
+                    </li>
+                    <li>
+                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Orcamento">Orçamento</a>
                     </li>
                     <li>
                         <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Footer">Contato</a>
@@ -52,10 +58,16 @@ export function Header() {
                     <div className="absolute top-20 left-0 w-full bg-[#ccfff9] lg:hidden">
                         <ul className="flex flex-col items-center gap-6 py-4">
                             <li>
+                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About" onClick={toggleMobileMenu}>Sobre nós</a>
+                            </li>
+                            <li>
+                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Advantages" onClick={toggleMobileMenu}>Vantagens</a>
+                            </li>
+                            <li>
                                 <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Servicos" onClick={toggleMobileMenu}>Serviços</a>
                             </li>
                             <li>
-                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About" onClick={toggleMobileMenu}>Sobre nós</a>
+                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Orcamento" onClick={toggleMobileMenu}>Orçamento</a>
                             </li>
                             <li>
                                 <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Footer" onClick={toggleMobileMenu}>Contato</a>

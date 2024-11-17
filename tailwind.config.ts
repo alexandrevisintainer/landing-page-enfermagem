@@ -17,7 +17,7 @@ const config: Config = {
       'light-green' : '#ccfff9',
       'primary-gray' : '#33303E',
       'second-gray' : '#4E4B59',
-      'gray-phone' :'#F4F4F4',
+      'gray-phone' :'#F1f1f1',
       'txt-gray' : '#7A7786',
       'opacity-gray' : 'rgba(100, 80, 57, 0.1)',
       }

@@ -1,12 +1,12 @@
 export function SectionForm() {
     return (
-        <section className="relative w-full flex items-center justify-center min-h-screen" id="Contact">
+        <section className="relative w-full bg-gray-phone flex items-center justify-center min-h-screen" id="Contact">
             <div className="w-full max-w-[1246px] px-[15px] mx-auto">
                 <div>
                     <div className="max-w-[600px] mx-auto pt-12 lg:pt-24 text-left">
                         <span className="block text-primary-gray text-sm font-bold uppercase mb-6">Orçamento</span>
-                        <h2 className="text-primary-blue text-[32px] lg:text-[40px] font-bold leading-tight mb-6">
-                            Preencha o Formulário Abaixo e Receba um Orçamento em Poucos Minutos
+                        <h2 className="text-primary-blue text-[32px] lg:text-[40px] font-bold leading-tight mb-6" id="Orcamento">
+                            Preencha o Formulário Abaixo e Receba um Orçamento
                         </h2>
                         
                         {/* Formulário de Contato */}
