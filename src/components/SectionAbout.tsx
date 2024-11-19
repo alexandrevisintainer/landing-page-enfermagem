@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Container } from "./Container";
 import Nurse1 from "@/assets/nurse1.png"
-import WhatsappGreen from "@/assets/whatsappGreen.png"
 import WhatsappWhite from "@/assets/whatsappWhite.png"
 
 
