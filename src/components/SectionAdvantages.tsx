@@ -10,7 +10,7 @@ export function SectionAdvantages() {
             <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between w-full max-w-[1246px] px-[15px] mx-auto">
                 <Container>
                     <div className="flex-1 max-w-full lg:max-w-[700px] pt-12 px-4 lg:pt-24 lg:pr-8">
-                        <h2 className="text-primary-blue text-[32px] lg:text-[40px] font-bold leading-tight mb-4 lg:mb-6" id="Advantages">
+                        <h2 className="text-primary-green text-[32px] lg:text-[40px] font-bold leading-tight mb-4 lg:mb-6" id="Advantages">
                         Por Que Escolher a Afecto?
                         </h2>
                         <p className="text-base lg:text-lg max-w-[554px] lg:max-w-[554px] mb-4 lg:mb-8 text-second-gray">

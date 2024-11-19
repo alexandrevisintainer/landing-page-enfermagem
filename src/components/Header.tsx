@@ -14,7 +14,7 @@ export function Header() {
     };
 
     return (
-        <header className="relative flex items-center w-full h-20 bg-[#e2e8e1]">
+        <header className="relative flex items-center w-full h-20 bg-back-green">
             <div className="flex items-center justify-between w-full max-w-[1246px] px-[15px] mx-auto">
                 
                 {/* Logo */}
@@ -55,7 +55,7 @@ export function Header() {
 
                 {/* Menu Mobile */}
                 {isMobileMenuOpen && (
-                    <div className="absolute top-20 left-0 w-full bg-[#ccfff9] lg:hidden">
+                    <div className="absolute top-20 left-0 w-full bg-back-green lg:hidden">
                         <ul className="flex flex-col items-center gap-6 py-4">
                             <li>
                                 <a className="text-primary-gray font-bold hover:text-light-green" href="#About" onClick={toggleMobileMenu}>Sobre nós</a>

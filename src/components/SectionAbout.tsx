@@ -20,7 +20,7 @@ export function SectionAbout() {
                 <Container>
                     <div className="max-w-[550px] pt-12 lg:pt-24 justify-start">
                         <span className="block text-primary-gray text-sm font-bold uppercase mb-6">Sobre Nós</span>
-                        <h2 className="text-primary-blue text-[32px] lg:text-[40px] font-bold leading-tight mb-6">
+                        <h2 className="text-primary-green text-[32px] lg:text-[40px] font-bold leading-tight mb-6">
                             SERVIÇOS ESPECIALIZADOS DE ENFERMAGEM E CUIDADOS
                         </h2>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 text-lg">
@@ -29,17 +29,17 @@ export function SectionAbout() {
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
                             Nos orgulhamos em estar ao lado de quem precisa de ajuda e apoiar cada família para que vivam com tranquilidade e qualidade.
                         </p>
-                        <div className="flex flex-col sm:flex-row justify-start gap-4 mb-6 mt-6 md:mb-6 ">
+                        <div className="flex flex-col sm:flex-row items-center gap-4 mt-8 mb-12 md:mb-20">
                             <a 
-                            href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className="relative flex gap-2 px-6 py-4 border-2 border-primary-blue text-primary-blue rounded-lg hover:bg-primary-blue hover:text-white transition duration-200 items-center group"
+                                href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="relative flex gap-2 px-6 py-4 text-white rounded-lg bg-primary-green hover:bg-light-green transition duration-200 items-center"
                             >
-                                <Image src={WhatsappGreen} alt="WhatsappWhite" className="h-6 w-6 group-hover:opacity-0"/>
-                                <Image src={WhatsappWhite} alt="Whatsapp" className="h-6 w-6 opacity-0 group-hover:opacity-100 absolute"/>
+                                <Image src={WhatsappWhite} alt="WhatsappWhite" className="h-6 w-6"/>
                                 <span className="ml-2 font-bold">Faça um orçamento</span>
                             </a>
+
                         </div>
                         
 
