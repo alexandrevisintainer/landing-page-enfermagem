@@ -8,7 +8,7 @@ import WhatsappWhite from "@/assets/whatsappWhite.png"
 export function SectionAbout() {
     return (
         <section className="relative w-full flex" id="About">
-            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between w-full max-w-[1246px] px-[15px] mx-auto">
+            <div className="flex flex-col lg:flex-row items-center justify-start lg:justify-between w-full max-w-[1246px] px-[15px] mx-auto">
                 
                 {/* Imagem - Exibida apenas em telas a partir de 1024px */}
                 <div className="hidden lg:flex items-center justify-center mt-5">
@@ -28,7 +28,7 @@ export function SectionAbout() {
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
                             Nos orgulhamos em estar ao lado de quem precisa de ajuda e apoiar cada família para que vivam com tranquilidade e qualidade.
                         </p>
-                        <div className="flex flex-col sm:flex-row items-center gap-4 mt-8 mb-12 md:mb-20">
+                        <div className="flex flex-col sm:flex-row items-center  mt-8 mb-12 md:mb-20">
                             <a 
                                 href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
                                 target="_blank" 

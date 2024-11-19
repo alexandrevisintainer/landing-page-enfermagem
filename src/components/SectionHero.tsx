@@ -9,7 +9,7 @@ export function SectionHero () {
             <Container>
                 <div className="flex-1 max-w-full md:max-w-[550px] mt-10 md:mt-16 lg:mt-20 text-center md:text-left">
                     <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-                        Cuidado e Conforto, Onde e Quando Você Precisa
+                    Afecto: Cuidado e Conforto, Onde e Quando Você Precisa
                     </h1>
                     <p className="text-white text-base md:text-lg lg:text-xl max-w-full md:max-w-[500px] mb-6 md:mb-8">
                         Na Afecto, a gente entende que o cuidado vai além da saúde. Nossa equipe oferece um atendimento completo e personalizado, com toda a segurança e atenção que você merece.

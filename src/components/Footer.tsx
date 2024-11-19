@@ -1,16 +1,17 @@
 import Image from "next/image";
 import Telefone from "@/assets/telefone.png"
 import Email from "@/assets/e-mail.png"
-import LogoLight from "@/assets/logolight.png"
+import LogoLight from "@/assets/logolight.svg"
+
 
 export function Footer() {
     return (
-        <footer className="w-full h-full bg-primary-blue" id="Footer">
+        <footer className="w-full h-full bg-primary-green" id="Footer">
             <div className="flex flex-col sm:flex-row items-center justify-between w-full max-w-[1246px] px-[15px] mx-auto py-4 gap-5">
                 
                 {/* Logo */}
-                <div className="flex items-center">
-                    <Image src={LogoLight} alt="Logo" className="h-16 w-36"/>
+                <div className="flex items-center gap-14 max-h-16 max-w-48">
+                    <Image src={LogoLight} alt="Logo" className="h-full w-full" />
                 </div>
 
                 {/* Informações de Contato - Alinhada à direita em telas maiores */}

@@ -5,7 +5,7 @@ export function SectionForm() {
                 <div>
                     <div className="max-w-[600px] mx-auto pt-12 lg:pt-24 text-left">
                         <span className="block text-primary-gray text-sm font-bold uppercase mb-6">Orçamento</span>
-                        <h2 className="text-primary-blue text-[32px] lg:text-[40px] font-bold leading-tight mb-6" id="Orcamento">
+                        <h2 className="text-primary-green text-[32px] lg:text-[40px] font-bold leading-tight mb-6" id="Orcamento">
                             Preencha o Formulário Abaixo e Receba um Orçamento
                         </h2>
                         
@@ -15,26 +15,26 @@ export function SectionForm() {
                             <input 
                                 type="text" 
                                 placeholder="Seu nome e sobrenome" 
-                                className="px-4 py-3 border text-second-gray border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+                                className="px-4 py-3 border text-second-gray border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
                                 required
                             />
                             <label htmlFor="nome" className="block text-primary-gray font-medium pt-2">Email</label>
                             <input 
                                 type="email" 
                                 placeholder=" Seu melhor Email" 
-                                className="px-4 py-3 border text-second-gray border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+                                className="px-4 py-3 border text-second-gray border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
                                 required
                             />
                             <label htmlFor="nome" className="block text-primary-gray pt-2 font-medium">Cidade e Bairro do Atendimento</label>
                             <input 
                                 type="text" 
                                 placeholder="Cidade e Bairro do Atendimento" 
-                                className="px-4 py-3 border text-second-gray pt-2 border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+                                className="px-4 py-3 border text-second-gray pt-2 border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
                                 required
                             />
                             <label htmlFor="nome" className="block text-primary-gray pt-2 font-medium">Estado</label>
                             <select 
-                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
                                 required
                             >
                                 <option value="" disabled selected>Estado</option>
@@ -72,21 +72,21 @@ export function SectionForm() {
                             <input 
                                 type="tel" 
                                 placeholder="Seu Whatsapp (Telefone)" 
-                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
                                 required
                             />
                             <label htmlFor="nome" className="block text-primary-gray pt-2 font-medium">Nome do paciente</label>
                             <input 
                                 type="text" 
                                 placeholder="Nome do paciente" 
-                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
                                 required
                             />
                             
                                 
                             <label className="block mb-2 font-medium text-primary-gray pt-2">Quantas vezes na semana deseja atendimento?</label>
                             <select 
-                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+                                className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
                                 required
                             >
                                 <option value="1" disabled selected>1</option>
@@ -101,7 +101,7 @@ export function SectionForm() {
 
                             <label className="block mb-2 font-medium text-primary-gray pt-2">Carga Horária desejada:</label>
                             <select 
-    className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue"
+    className="px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
     required
 >
     <option value="" disabled selected>Selecione a duração</option>
@@ -146,7 +146,7 @@ export function SectionForm() {
                             ></textarea>
                             <button 
                                 type="submit" 
-                                className="mb-6 mt-6 px-6 py-3 bg-primary-blue hover:bg-[#72e2d5]  text-white rounded-lg hover:bg-primary-dark transition duration-200 font-bold"
+                                className="mb-6 mt-6 px-6 py-3 bg-primary-green hover:bg-light-green  text-white rounded-lg  transition duration-200 font-bold"
                             >
                                 Enviar Formulário
                             </button>
