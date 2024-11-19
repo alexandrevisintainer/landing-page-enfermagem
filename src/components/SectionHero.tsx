@@ -19,7 +19,7 @@ export function SectionHero () {
                         href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        className="relative flex gap-2 px-6 py-4 text-white rounded-lg bg-primary-blue hover:bg-[#72e2d5] transition duration-200 items-center"
+                        className="relative flex gap-2 px-6 py-4 text-white rounded-lg bg-primary-green hover:bg-light-green transition duration-200 items-center"
                     >
                         <Image src={WhatsappWhite} alt="WhatsappWhite" className="h-6 w-6"/>
                         <span className="ml-2 font-bold">Faça um orçamento</span>

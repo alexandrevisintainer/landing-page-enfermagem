@@ -14,7 +14,7 @@ export function Header() {
     };
 
     return (
-        <header className="relative flex items-center w-full h-20 bg-[#ccfff9]">
+        <header className="relative flex items-center w-full h-20 bg-[#e2e8e1]">
             <div className="flex items-center justify-between w-full max-w-[1246px] px-[15px] mx-auto">
                 
                 {/* Logo */}
@@ -58,19 +58,19 @@ export function Header() {
                     <div className="absolute top-20 left-0 w-full bg-[#ccfff9] lg:hidden">
                         <ul className="flex flex-col items-center gap-6 py-4">
                             <li>
-                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About" onClick={toggleMobileMenu}>Sobre nós</a>
+                                <a className="text-primary-gray font-bold hover:text-light-green" href="#About" onClick={toggleMobileMenu}>Sobre nós</a>
                             </li>
                             <li>
-                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Advantages" onClick={toggleMobileMenu}>Vantagens</a>
+                                <a className="text-primary-gray font-bold hover:text-light-green" href="#Advantages" onClick={toggleMobileMenu}>Vantagens</a>
                             </li>
                             <li>
-                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Servicos" onClick={toggleMobileMenu}>Serviços</a>
+                                <a className="text-primary-gray font-bold hover:text-light-green" href="#Servicos" onClick={toggleMobileMenu}>Serviços</a>
                             </li>
                             <li>
-                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Orcamento" onClick={toggleMobileMenu}>Orçamento</a>
+                                <a className="text-primary-gray font-bold hover:text-light-green" href="#Orcamento" onClick={toggleMobileMenu}>Orçamento</a>
                             </li>
                             <li>
-                                <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Footer" onClick={toggleMobileMenu}>Contato</a>
+                                <a className="text-primary-gray font-bold hover:text-light-green" href="#Footer" onClick={toggleMobileMenu}>Contato</a>
                             </li>
                         </ul>
                     </div>

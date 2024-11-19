@@ -18,7 +18,7 @@ export function SectionAbout() {
 
                 {/* Conteúdo - Centralizado quando a imagem está oculta */}
                 <Container>
-                    <div className="max-w-[550px] pt-12 lg:pt-24">
+                    <div className="max-w-[550px] pt-12 lg:pt-24 justify-start">
                         <span className="block text-primary-gray text-sm font-bold uppercase mb-6">Sobre Nós</span>
                         <h2 className="text-primary-blue text-[32px] lg:text-[40px] font-bold leading-tight mb-6">
                             SERVIÇOS ESPECIALIZADOS DE ENFERMAGEM E CUIDADOS
@@ -29,7 +29,7 @@ export function SectionAbout() {
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
                             Nos orgulhamos em estar ao lado de quem precisa de ajuda e apoiar cada família para que vivam com tranquilidade e qualidade.
                         </p>
-                        <div className="flex flex-col sm:flex-row items-center gap-4 mb-6 mt-6 md:mb-6">
+                        <div className="flex flex-col sm:flex-row justify-start gap-4 mb-6 mt-6 md:mb-6 ">
                             <a 
                             href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
                             target="_blank" 

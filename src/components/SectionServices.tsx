@@ -53,17 +53,18 @@ export function SectionServices() {
                                 </p>
                             </div>
                         </li>
-                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4">
+                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray mb-8">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Gravida} alt="Cuidador de Gestantes" className="object-contain" width={64} height={64} />
+                                <Image src={Gravida} alt="Gravida" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Cuidador de Gestantes</h3>
-                                <p className="text-txt-gray text-sm lg:text-base flex-1 ">
-                                    Com preparo e dedicação, nossos cuidadores podem auxiliar na higiene, alimentação, rotina em casa, acompanhamento das consultas e até em casos de internação.
+                                <p className="text-txt-gray text-sm lg:text-base ">
+                                Com preparo e dedicação, nossos cuidadores podem auxiliar na higiene, alimentação, rotina em casa, acompanhamento das consultas e até em casos de internação.
                                 </p>
                             </div>
                         </li>
+                        
                     </ul>
                 </div>
             </Container>

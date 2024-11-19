@@ -12,9 +12,9 @@ const config: Config = {
     },
     extend: {
       colors: {
-      'primary-blue' : '#33cdbb',
+      'primary-green' : '#9ab899',
       'back-green' : '#DEF2FF',
-      'light-green' : '#ccfff9',
+      'light-green' : '#abd2aa',
       'primary-gray' : '#33303E',
       'second-gray' : '#4E4B59',
       'gray-phone' :'#F1f1f1',
