@@ -25,25 +25,25 @@ export function Header() {
                 {/* Menu para telas grandes */}
                 <ul className="hidden lg:flex items-center gap-12 text-second-gray">
                     <li>
-                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#About">Sobre nós</a>
+                        <a className="text-primary-gray font-bold hover:text-primary-green" href="#About">Sobre nós</a>
                     </li>
                     <li>
-                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Advantages">Vantagens</a>
+                        <a className="text-primary-gray font-bold hover:text-primary-green" href="#Advantages">Vantagens</a>
                     </li>
                     <li>
-                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Services">Serviços</a>
+                        <a className="text-primary-gray font-bold hover:text-primary-green" href="#Services">Serviços</a>
                     </li>
                     <li>
-                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Orcamento">Orçamento</a>
+                        <a className="text-primary-gray font-bold hover:text-primary-green" href="#Orcamento">Orçamento</a>
                     </li>
                     <li>
-                        <a className="text-primary-gray font-bold hover:text-primary-blue" href="#Footer">Contato</a>
+                        <a className="text-primary-gray font-bold hover:text-primary-green" href="#Footer">Contato</a>
                     </li>
                 </ul>
 
                 {/* Botão de menu mobile */}
                 <div className="lg:hidden flex items-center">
-                    <button onClick={toggleMobileMenu} className="text-primary-blue">
+                    <button onClick={toggleMobileMenu} className="text-primary-green">
                         <span className="text-2xl">&#9776;</span> {/* Ícone de hambúrguer */}
                     </button>
                 </div>
