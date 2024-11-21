@@ -71,7 +71,7 @@ export function SectionServices() {
 
 
             <div className="mt-8 lg:mt-0 lg:absolute lg:top-0 lg:right-0 lg:h-full w-full lg:w-[36%] lg:bg-gray-phone bg-white flex items-center justify-center lg:justify-end">
-                <Image src={Enfermeira} alt="Phone" className="max-w-[80%] lg:max-w-full lg:translate-x-[-35%] mt-1 lg:mt-36 mb-4" />
+                <Image src={Enfermeira} alt="Enfermeira" className="max-w-[80%] lg:max-w-full lg:translate-x-[-35%] mt-1 lg:mt-36 mb-4" />
             </div>
         </section>
     );
