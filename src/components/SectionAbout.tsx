@@ -20,7 +20,7 @@ export function SectionAbout() {
                     <div className="max-w-[550px] pt-12 lg:pt-24 justify-start">
                         <span className="block text-primary-gray text-sm font-bold uppercase mb-6">Sobre Nós</span>
                         <h2 className="text-primary-green text-[32px] lg:text-[40px] font-bold leading-tight mb-6">
-                            SERVIÇOS ESPECIALIZADOS DE ENFERMAGEM E CUIDADOS
+                            Serviços especializados de enfermagem e cuidados.
                         </h2>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 text-lg">
                             Cuidamos de cada detalhe para oferecer serviços especializados de enfermagem e assistência em casa ou no hospital, com suporte em consultas, passeios, recuperação pós-cirúrgica e curativos. Atendemos idosos, pessoas com deficiência, bebês e gestantes, sempre focados em suas necessidades.

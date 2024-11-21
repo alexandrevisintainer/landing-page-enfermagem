@@ -26,10 +26,6 @@ export function SectionHero () {
                     </a>
 
                     </div>
-                    <button className="flex items-center gap-3 justify-center md:justify-start">
-                        <Image src={Arrow} alt="Arrow"/>
-                        <span className="text-white text-sm font-bold">Continue explorando</span>
-                    </button>
                 </div>
             </Container>
         </section>
