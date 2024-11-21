@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Container } from "./Container";
 import Homecare from "@/assets/homecare.png"
 import Curativo from "@/assets/curativo.png"
-import Idosos from "@/assets/Idosos.png"
+import Idosos from "@/assets/idosos.png"
 import Gravida from "@/assets/gravida.png"
 import Enfermeira from "@/assets/enfermeira.png"
 
