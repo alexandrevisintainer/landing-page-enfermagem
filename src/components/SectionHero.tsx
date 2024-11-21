@@ -1,6 +1,5 @@
 import { Container } from "./Container";
 import Image from "next/image";
-import Arrow from "@/assets/arrow-explorer.svg"
 import WhatsappWhite from "@/assets/whatsappWhite.png"
 
 export function SectionHero () {
