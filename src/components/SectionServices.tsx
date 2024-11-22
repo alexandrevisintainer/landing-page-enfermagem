@@ -4,7 +4,6 @@ import Homecare from "@/assets/homecare.png"
 import Curativo from "@/assets/curativo.png"
 import Gravida from "@/assets/gravida.png"
 import Enfermeira from "@/assets/enfermeira.png"
-import Idoso from "@/assets/idosos.png"
 
 
 export function SectionServices() {
@@ -43,7 +42,7 @@ export function SectionServices() {
                         </li>
                         <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Idoso} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
+                                <Image src="@/assets/idosos.png" alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Assistência para Idosos</h3>
