@@ -12,8 +12,7 @@ export function SectionServices() {
         <section className="relative w-full h-full flex flex-col lg:flex-row" id="Services">
             <Container>
                 <div className="flex-1 max-w-full lg:max-w-[594px] pt-12 px-4 lg:pt-24 lg:pr-8">
-                    <span className="block text-primary-gray text-sm font-bold uppercase mb-2 lg:mb-4">Serviços exclusivos</span>
-                    <h2 className="text-primary-blue text-3xl lg:text-[56px] font-bold leading-tight mb-2 lg:mb-4">
+                    <h2 className="text-primary-green text-3xl lg:text-[56px] font-bold leading-tight mb-2 lg:mb-4">
                         Serviços Oferecidos
                     </h2>
                     <p className="text-base lg:text-lg max-w-[554px] mb-4 lg:mb-8 text-second-gray">
