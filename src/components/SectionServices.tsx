@@ -2,9 +2,9 @@ import Image from "next/image";
 import { Container } from "./Container";
 import Homecare from "@/assets/homecare.png"
 import Curativo from "@/assets/curativo.png"
-import Idosos from "@/assets/idosos.png"
 import Gravida from "@/assets/gravida.png"
 import Enfermeira from "@/assets/enfermeira.png"
+import Idoso from "@/assets/idosos.png"
 
 
 export function SectionServices() {
@@ -43,12 +43,12 @@ export function SectionServices() {
                         </li>
                         <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Idosos} alt="Assistência para Idosos" className="object-contain" width={64} height={64} />
+                                <Image src={Idoso} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Assistência para Idosos</h3>
                                 <p className="text-txt-gray text-sm lg:text-base flex-1 pr-4">
-                                    Cuidado especializado e acompanhamento diário para promover qualidade de vida e independência.
+                                Cuidado especializado e acompanhamento diário para promover qualidade de vida e independência.
                                 </p>
                             </div>
                         </li>
