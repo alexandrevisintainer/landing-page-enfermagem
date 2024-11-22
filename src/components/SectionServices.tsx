@@ -2,8 +2,9 @@ import Image from "next/image";
 import { Container } from "./Container";
 import Homecare from "@/assets/homecare.png"
 import Curativo from "@/assets/curativo.png"
-import Gravida from "@/assets/gravida.png"
 import Enfermeira from "@/assets/enfermeira.png"
+import Orders from "@/assets/Olders.png"
+import Criancas from "@/assets/criancas.png"
 
 
 export function SectionServices() {
@@ -42,7 +43,7 @@ export function SectionServices() {
                         </li>
                         <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src="@/assets/idosos.png" alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
+                                <Image src={Orders} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Assistência para Idosos</h3>
@@ -51,17 +52,18 @@ export function SectionServices() {
                                 </p>
                             </div>
                         </li>
-                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray mb-8">
+                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Gravida} alt="Gravida" className="object-contain" width={64} height={64} />
+                                <Image src={Criancas} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
-                                <h3 className="text-base lg:text-lg font-semibold">Cuidador de Gestantes</h3>
-                                <p className="text-txt-gray text-sm lg:text-base ">
-                                Com preparo e dedicação, nossos cuidadores podem auxiliar na higiene, alimentação, rotina em casa, acompanhamento das consultas e até em casos de internação.
+                                <h3 className="text-base lg:text-lg font-semibold">Cuidador Infantil</h3>
+                                <p className="text-txt-gray text-sm lg:text-base flex-1 pr-4">
+                                Cuidadores especializados para crianças, com atenção ao dia a dia ou necessidades especiais.
                                 </p>
                             </div>
                         </li>
+
                         
                     </ul>
                 </div>
