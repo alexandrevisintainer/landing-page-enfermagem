@@ -21,7 +21,7 @@ export function SectionHero () {
                         className="relative flex gap-2 px-6 py-4 text-white rounded-lg bg-primary-green hover:bg-light-green transition duration-200 items-center"
                     >
                         <Image src={WhatsappWhite} alt="WhatsappWhite" className="h-6 w-6"/>
-                        <span className="ml-2 font-bold">Faça um orçamento</span>
+                        <span className="ml-2 font-bold">Entre em contato</span>
                     </a>
 
                     </div>

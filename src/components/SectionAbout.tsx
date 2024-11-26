@@ -22,27 +22,18 @@ export function SectionAbout() {
                         Sobre Nós.
                         </h2>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 text-lg">
-                        Na Afecto, cuidar é nossa forma de demonstrar amor. Recebemos a confiança de quem nos escolhe com respeito, dedicação e carinho, oferecendo mais do que serviços: entregamos conforto, atenção e tranquilidade.
+                        Na Afecto, cuidar é mais do que um trabalho — é um compromisso com o bem-estar e a felicidade de quem mais importa para você. Especializados no cuidado de idosos, adultos e crianças, oferecemos um serviço que combina excelência, dedicação e total confiança. Cada detalhe é pensado para atender às necessidades únicas de cada cliente, com planos personalizados que respeitam as suas particularidades.
                         </p>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
-                        Nossos cuidadores são treinados para unir suporte técnico à humanização, respeitando a rotina e a independência de cada cliente. Com supervisão especializada, criamos planos de cuidado personalizados, ajustados às necessidades de cada pessoa.
+                        Nossos cuidadores não são apenas profissionais, mas verdadeiros agentes de acolhimento. Com treinamento baseado em princípios de humanização, eles transformam os lares em espaços de conforto, harmonia e segurança, enquanto preservam rotinas e incentivam a autonomia de nossos clientes.
                         </p>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
-                        Prezamos pela transparência, registrando as atividades diárias em um livro acessível às famílias, fortalecendo a confiança e proporcionando segurança.
+                        O grande diferencial da Afectos é a supervisão cuidadosa de uma enfermeira especializada. Essa profissional acompanha de perto cada caso, desenvolve planos de cuidado sob medida e orienta a equipe, garantindo que nossos serviços sejam realizados com a mais alta qualidade e atenção aos detalhes.
+                        </p>
+                        <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
+                        Para estreitar ainda mais o vínculo de confiança com os familiares, registramos diariamente tudo o que acontece em um diário de cuidados. Assim, você pode acompanhar de perto o dia a dia do seu ente querido, com a certeza de que ele está recebendo o melhor cuidado possível. Afectos: porque cuidar é nossa forma de transformar vidas.
                         </p>
                         
-                        <div className="flex flex-col sm:flex-row items-center mt-8">
-                            <a 
-                                href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="relative flex gap-2 px-6 py-4 text-white rounded-lg bg-primary-green hover:bg-light-green transition duration-200 items-center"
-                            >
-                                <Image src={WhatsappWhite} alt="WhatsappWhite" className="h-6 w-6"/>
-                                <span className="ml-2 font-bold">Faça um orçamento</span>
-                            </a>
-
-                        </div>
                         
 
                     </div>
