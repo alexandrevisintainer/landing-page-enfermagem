@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { Container } from "./Container";
 import Nurse1 from "@/assets/nurse1.png"
-
-
+import WhatsappWhite from "@/assets/whatsappWhite.png"
 
 
 export function SectionAbout() {
@@ -33,7 +32,18 @@ export function SectionAbout() {
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
                         Para estreitar ainda mais o vínculo de confiança com os familiares, registramos diariamente tudo o que acontece em um diário de cuidados. Assim, você pode acompanhar de perto o dia a dia do seu ente querido, com a certeza de que ele está recebendo o melhor cuidado possível. Afectos: porque cuidar é nossa forma de transformar vidas.
                         </p>
-                        
+                        <div className="flex flex-col sm:flex-row items-center mt-8">
+                            <a 
+                                href="https://wa.me/5548996864536" // Substitua pelo número correto com o código do país
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="relative flex gap-2 px-6 py-4 text-white rounded-lg bg-primary-green hover:bg-light-green transition duration-200 items-center"
+                            >
+                                <Image src={WhatsappWhite} alt="WhatsappWhite" className="h-6 w-6"/>
+                                <span className="ml-2 font-bold">Faça um orçamento</span>
+                            </a>
+
+                        </div>
                         
 
                     </div>
