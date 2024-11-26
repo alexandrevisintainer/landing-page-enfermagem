@@ -21,7 +21,7 @@ export function SectionAbout() {
                         Sobre Nós.
                         </h2>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 text-lg">
-                        Na Afecto, cuidar é mais do que um trabalho — é um compromisso com o bem-estar e a felicidade de quem mais importa para você. Especializados no cuidado de idosos, adultos e crianças, oferecemos um serviço que combina excelência, dedicação e total confiança. Cada detalhe é pensado para atender às necessidades únicas de cada cliente, com planos personalizados que respeitam as suas particularidades.
+                        Na Afecto, cuidar é mais do que um trabalho é um compromisso com o bem-estar e a felicidade de quem mais importa para você. Especializados no cuidado de idosos, adultos e crianças, oferecemos um serviço que combina excelência, dedicação e total confiança. Cada detalhe é pensado para atender às necessidades únicas de cada cliente, com planos personalizados que respeitam as suas particularidades.
                         </p>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
                         Nossos cuidadores não são apenas profissionais, mas verdadeiros agentes de acolhimento. Com treinamento baseado em princípios de humanização, eles transformam os lares em espaços de conforto, harmonia e segurança, enquanto preservam rotinas e incentivam a autonomia de nossos clientes.
