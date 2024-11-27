@@ -11,7 +11,7 @@ export function SectionHero () {
                     Cuidado e Conforto, Onde e Quando Você Precisa
                     </h1>
                     <p className="text-white text-base md:text-lg lg:text-xl max-w-full md:max-w-[500px] mb-6 md:mb-8">
-                        Na Afecto, a gente entende que o cuidado vai além da saúde. Nossa equipe oferece um atendimento completo e personalizado, com toda a segurança e atenção que você merece.
+                        Na Afecto, entendemos que o cuidado vai além da saúde. Nossa equipe oferece um atendimento completo e personalizado, com toda a segurança e atenção que você merece.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center gap-4 mb-12 md:mb-20">
                     <a 

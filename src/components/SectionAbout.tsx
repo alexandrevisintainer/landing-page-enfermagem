@@ -30,7 +30,7 @@ export function SectionAbout() {
                         O grande diferencial da Afectos é a supervisão cuidadosa de uma enfermeira especializada. Essa profissional acompanha de perto cada caso, desenvolve planos de cuidado sob medida e orienta a equipe, garantindo que nossos serviços sejam realizados com a mais alta qualidade e atenção aos detalhes.
                         </p>
                         <p className="text-txt-gray flex-1 pr-4 lg:pr-0 pt-6 text-lg">
-                        Para estreitar ainda mais o vínculo de confiança com os familiares, registramos diariamente tudo o que acontece em um diário de cuidados. Assim, você pode acompanhar de perto o dia a dia do seu ente querido, com a certeza de que ele está recebendo o melhor cuidado possível. Afectos: porque cuidar é nossa forma de transformar vidas.
+                        Para estreitar ainda mais o vínculo de confiança com os familiares, registramos diariamente tudo o que acontece em um diário de cuidados. Assim você pode acompanhar de perto o dia a dia do seu familiar, com a certeza de que ele está recebendo o melhor cuidado possível. Afectos: porque cuidar é nossa forma de transformar vidas.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center mt-8">
                             <a 

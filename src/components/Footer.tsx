@@ -1,17 +1,17 @@
 import Image from "next/image";
 import Telefone from "@/assets/telefone.png"
 import Email from "@/assets/e-mail.png"
-import LogoLight from "@/assets/logolight.svg"
+import Logo from "@/assets/logo.svg"
 
 
 export function Footer() {
     return (
-        <footer className="w-full h-full bg-primary-green" id="Footer">
+        <footer className="w-full h-full bg-back-green" id="Footer">
             <div className="flex flex-col sm:flex-row items-center justify-between w-full max-w-[1246px] px-[15px] mx-auto py-4 gap-5">
                 
                 {/* Logo */}
                 <div className="flex items-center gap-14 max-h-16 max-w-48">
-                    <Image src={LogoLight} alt="Logo" className="h-full w-full" />
+                    <Image src={Logo} alt="Logo" className="h-full w-full" />
                 </div>
 
                 {/* Informações de Contato - Alinhada à direita em telas maiores */}
@@ -19,11 +19,11 @@ export function Footer() {
                     <ul className="flex flex-col sm:flex-row gap-6">
                         <li className="flex gap-4 items-center">
                             <Image src={Telefone} alt="Telefone" className="h-6 w-6"/>
-                            <p className="font-bold text-white">+55 48 99686-4536</p>
+                            <p className="font-bold text-primary-green">+55 48 99686-4536</p>
                         </li>
                         <li className="flex gap-4 items-center">
                             <Image src={Email} alt="E-mail" className="h-6 w-6"/>
-                            <p className="font-bold text-white">afectocarehome@gmail.com</p>
+                            <p className="font-bold text-primary-green">afectocarehome@gmail.com</p>
                         </li>
                     </ul>
                 </div>
