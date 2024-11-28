@@ -2,6 +2,7 @@ import Image from "next/image";
 import Telefone from "@/assets/telefone.png"
 import Email from "@/assets/e-mail.png"
 import Logo from "@/assets/logo.svg"
+import Instagram from "@/assets/instagram.png"
 
 
 export function Footer() {
@@ -20,6 +21,13 @@ export function Footer() {
                         <li className="flex gap-4 items-center">
                             <Image src={Telefone} alt="Telefone" className="h-6 w-6"/>
                             <p className="font-bold text-primary-green">+55 48 99686-4536</p>
+                        </li>
+                        <li className="flex gap-4 items-center">
+                            <a href="https://www.instagram.com/afectohomecare/?utm_source=ig_web_button_share_sheet" className="flex gap-4 items-center">
+                                <Image src={Instagram} alt="Telefone" className="h-6 w-6"/>
+                                <p className="font-bold text-primary-green hover:text-light-green">@afectohomecare</p>
+                            </a>
+                            
                         </li>
                         <li className="flex gap-4 items-center">
                             <Image src={Email} alt="E-mail" className="h-6 w-6"/>

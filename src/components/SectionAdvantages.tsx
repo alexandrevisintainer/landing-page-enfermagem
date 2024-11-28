@@ -20,7 +20,7 @@ export function SectionAdvantages() {
                             <ul className="flex flex-col items-start gap-4 lg:gap-9 w-full lg:w-auto">
                                 <li className="flex items-center gap-4 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray h-14">
                                     <div className="w-[28px] h-[28px] flex items-center justify-center gap-1">
-                                        <Image src={Check} alt="Phone Icon" className="w-full h-full object-contain" />
+                                        <Image src={Check} alt="Check" className="w-full h-full object-contain" />
                                     </div>
                                     <div className="flex flex-col w-full lg:w-52">
                                         <h3 className="text-base lg:text-lg font-medium">Planos adaptáveis e personalizados</h3>
@@ -28,7 +28,7 @@ export function SectionAdvantages() {
                                 </li>
                                 <li className="flex items-center gap-4 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray h-14">
                                     <div className="w-[28px] h-[28px] flex items-center justify-center gap-1">
-                                        <Image src={Check} alt="Phone Icon" className="w-full h-full object-contain" />
+                                        <Image src={Check} alt="Check" className="w-full h-full object-contain" />
                                     </div>
                                     <div className="flex flex-col w-full lg:w-52">
                                         <h3 className="text-base lg:text-lg font-medium">Avaliação inicial gratuita</h3>
@@ -36,15 +36,15 @@ export function SectionAdvantages() {
                                 </li>
                                 <li className="flex items-center gap-4 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray h-14">
                                     <div className="w-[28px] h-[28px] flex items-center justify-center gap-1">
-                                        <Image src={Check} alt="Phone Icon" className="w-full h-full object-contain" />
+                                        <Image src={Check} alt="Check" className="w-full h-full object-contain" />
                                     </div>
                                     <div className="flex flex-col w-full lg:w-52">
-                                        <h3 className="text-base lg:text-lg font-medium">Cuidadores capacitados e supervisionados</h3>
+                                        <h3 className="text-base lg:text-lg font-medium">Cuidadores, profissionais capacitados e supervisionados</h3>
                                     </div>
                                 </li>
                                 <li className="flex items-center gap-4 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray h-14">
                                     <div className="w-[28px] h-[28px] flex items-center justify-center gap-1">
-                                        <Image src={Check} alt="Phone Icon" className="w-full h-full object-contain" />
+                                        <Image src={Check} alt="Check" className="w-full h-full object-contain" />
                                     </div>
                                     <div className="flex flex-col w-full lg:w-52">
                                         <h3 className="text-base lg:text-lg font-medium">Responsabilidade legal pelo cuidador</h3>
@@ -55,7 +55,7 @@ export function SectionAdvantages() {
                             <ul className="flex flex-col items-start gap-4 lg:gap-9 w-full lg:w-auto">
                                 <li className="flex items-center gap-4 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray h-14">
                                     <div className="w-[28px] h-[28px] flex items-center justify-center gap-1">
-                                        <Image src={Check} alt="Phone Icon" className="w-full h-full object-contain" />
+                                        <Image src={Check} alt="Check" className="w-full h-full object-contain" />
                                     </div>
                                     <div className="flex flex-col w-full lg:w-52">
                                         <h3 className="text-base lg:text-lg font-medium">Planos específicos para cada situação</h3>
