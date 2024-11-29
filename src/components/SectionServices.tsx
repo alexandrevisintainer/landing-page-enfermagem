@@ -1,28 +1,27 @@
 import Image from "next/image";
 import { Container } from "./Container";
-import ServicesImg from "@/assets/ServicesImg.png"
 import Homecare from "@/assets/homecare.png"
 import Curativo from "@/assets/curativo.png"
-import Idosos from "@/assets/Idosos.png"
-import Terapia from "@/assets/terapia.png"
+import Enfermeira from "@/assets/enfermeira.png"
+import Orders from "@/assets/Olders.png"
+import Criancas from "@/assets/criancas.png"
 
 
 export function SectionServices() {
     return (
-        <section className="relative w-full lg:h-[900px] flex flex-col lg:flex-row" id="Servicos">
+        <section className="relative w-full h-full flex flex-col lg:flex-row" id="Services">
             <Container>
                 <div className="flex-1 max-w-full lg:max-w-[594px] pt-12 px-4 lg:pt-24 lg:pr-8">
-                    <span className="block text-primary-gray text-sm font-bold uppercase mb-4 lg:mb-6">Serviços exclusivos</span>
-                    <h2 className="text-primary-blue text-3xl lg:text-[56px] font-bold leading-tight mb-4 lg:mb-6">
+                    <h2 className="text-primary-green text-3xl lg:text-[56px] font-bold leading-tight mb-2 lg:mb-4">
                         Serviços Oferecidos
                     </h2>
-                    <p className="text-base lg:text-lg max-w-[554px] lg:max-w-[554px] mb-8 lg:mb-16 text-second-gray">
+                    <p className="text-base lg:text-lg max-w-[554px] mb-4 lg:mb-8 text-second-gray">
                         Na Afecto, cada cuidado é pensado com carinho e atenção aos detalhes, para que você e sua família tenham conforto e segurança em cada momento.
                     </p>
-                    <ul className="flex flex-col items-start gap-6 lg:gap-9">
-                        <li className="flex items-center gap-6 lg:gap-9 pb-4 lg:pb-6 border-b-[1px] border-opacity-gray">
+                    <ul className="flex flex-col items-start gap-4 lg:gap-6">
+                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Homecare} alt="Phone Icon" />
+                                <Image src={Homecare} alt="Enfermagem Domiciliar" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Enfermagem Domiciliar</h3>
@@ -31,9 +30,9 @@ export function SectionServices() {
                                 </p>
                             </div>
                         </li>
-                        <li className="flex items-center gap-6 lg:gap-9 pb-4 lg:pb-6 border-b-[1px] border-opacity-gray">
+                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Curativo} alt="Phone Icon" />
+                                <Image src={Curativo} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Cuidados Pós-Cirúrgicos</h3>
@@ -42,33 +41,37 @@ export function SectionServices() {
                                 </p>
                             </div>
                         </li>
-                        <li className="flex items-center gap-6 lg:gap-9 pb-4 lg:pb-6 border-b-[1px] border-opacity-gray">
+                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Idosos} alt="Phone Icon" />
+                                <Image src={Orders} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Assistência para Idosos</h3>
                                 <p className="text-txt-gray text-sm lg:text-base flex-1 pr-4">
-                                    Cuidado especializado e acompanhamento diário para promover qualidade de vida e independência.
+                                Cuidado especializado e acompanhamento diário para promover qualidade de vida e independência.
                                 </p>
                             </div>
                         </li>
-                        <li className="flex items-center gap-6 lg:gap-9 border-opacity-gray">
+                        <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Terapia} alt="Phone Icon" />
+                                <Image src={Criancas} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
-                                <h3 className="text-base lg:text-lg font-semibold">Terapias em Casa</h3>
+                                <h3 className="text-base lg:text-lg font-semibold">Cuidador Infantil</h3>
                                 <p className="text-txt-gray text-sm lg:text-base flex-1 pr-4">
-                                    Fisioterapia, terapia ocupacional e suporte para tratamentos crônicos, tudo no conforto do seu lar.
+                                Cuidadores especializados para crianças, com atenção ao dia a dia ou necessidades especiais.
                                 </p>
                             </div>
                         </li>
+
+                        
                     </ul>
                 </div>
             </Container>
+
+
             <div className="mt-8 lg:mt-0 lg:absolute lg:top-0 lg:right-0 lg:h-full w-full lg:w-[36%] lg:bg-gray-phone bg-white flex items-center justify-center lg:justify-end">
-                <Image src={ServicesImg} alt="Phone" className="max-w-[80%] lg:max-w-full lg:translate-x-[-35%]" />
+                <Image src={Enfermeira} alt="Enfermeira" className="max-w-[80%] lg:max-w-full lg:translate-x-[-35%] mt-1 lg:mt-36 mb-4" />
             </div>
         </section>
     );

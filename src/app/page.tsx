@@ -1,15 +1,21 @@
 import { Footer } from "@/components/Footer";
+import { SectionForm } from "@/components/Form";
 import { SectionAbout } from "@/components/SectionAbout";
+import { SectionAdvantages } from "@/components/SectionAdvantages";
+import { SectionCare } from "@/components/SectionCare";
 import { SectionHero } from "@/components/SectionHero";
 import { SectionServices } from "@/components/SectionServices";
-import Image from "next/image";
 
 export default function Home() {
   return (   
     <>
       <SectionHero/>
-      <SectionServices/>  
       <SectionAbout />
+      <SectionAdvantages />
+      <SectionCare />
+      <SectionServices/>  
+      
+      <SectionForm />
       <Footer/>
           
     </>
