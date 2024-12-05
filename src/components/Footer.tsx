@@ -24,7 +24,7 @@ export function Footer() {
                         </li>
                         <li className="flex gap-4 items-center">
                             <a href="https://www.instagram.com/afectohomecare/?utm_source=ig_web_button_share_sheet" className="flex gap-4 items-center">
-                                <Image src={Instagram} alt="Telefone" className="h-6 w-6"/>
+                                <Image src={Instagram} alt="Instagram" className="h-6 w-6"/>
                                 <p className="font-bold text-primary-green hover:text-light-green">@afectohomecare</p>
                             </a>
                             

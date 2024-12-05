@@ -3,6 +3,7 @@ import { SectionForm } from "@/components/Form";
 import { SectionAbout } from "@/components/SectionAbout";
 import { SectionAdvantages } from "@/components/SectionAdvantages";
 import { SectionCare } from "@/components/SectionCare";
+import { SectionCareers } from "@/components/SectionCarrers";
 import { SectionHero } from "@/components/SectionHero";
 import { SectionServices } from "@/components/SectionServices";
 
@@ -14,7 +15,7 @@ export default function Home() {
       <SectionAdvantages />
       <SectionCare />
       <SectionServices/>  
-      
+      <SectionCareers />
       <SectionForm />
       <Footer/>
           

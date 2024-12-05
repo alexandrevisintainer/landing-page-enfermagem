@@ -43,7 +43,7 @@ export function SectionServices() {
                         </li>
                         <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Orders} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
+                                <Image src={Orders} alt="Idosos" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Assistência para Idosos</h3>
@@ -54,7 +54,7 @@ export function SectionServices() {
                         </li>
                         <li className="flex items-center gap-6 lg:gap-9 pb-2 lg:pb-4 border-b-[1px] border-opacity-gray">
                             <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center">
-                                <Image src={Criancas} alt="Cuidados Pós-Cirúrgicos" className="object-contain" width={64} height={64} />
+                                <Image src={Criancas} alt="Crianças" className="object-contain" width={64} height={64} />
                             </div>
                             <div className="flex flex-col">
                                 <h3 className="text-base lg:text-lg font-semibold">Cuidador Infantil</h3>
