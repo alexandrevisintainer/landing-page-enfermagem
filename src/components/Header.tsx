@@ -39,6 +39,9 @@ export function Header() {
                     <li>
                         <a className="text-primary-gray font-bold hover:text-primary-green" href="#Footer">Contato</a>
                     </li>
+                    <li>
+                        <a className="text-primary-gray font-bold hover:text-primary-green" href="#Careers">Trabalhe conosco</a>
+                    </li>
                 </ul>
 
                 {/* Botão de menu mobile */}
